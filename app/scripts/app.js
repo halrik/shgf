@@ -12,6 +12,10 @@ angular.module('shgfApp', [
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
+      .when('/contactList', {
+        templateUrl: 'partials/contactlist',
+        controller: 'ContactlistCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

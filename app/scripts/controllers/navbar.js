@@ -9,7 +9,7 @@ angular.module('shgfApp')
 	    },
 	    {
 	      'title': 'Kontakt liste',
-	      'link': '/'
+	      'link': '/contactList'
 	    }
 		];
     
